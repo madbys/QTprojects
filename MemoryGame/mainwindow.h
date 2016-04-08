@@ -15,6 +15,23 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+private slots:
+   void on_pushButton_red_pressed();
+
+   void on_pushButton_red_released();
+
+   void on_pushButton_blue_pressed();
+
+   void on_pushButton_blue_released();
+
+   void on_pushButton_green_pressed();
+
+   void on_pushButton_green_released();
+
+   void on_pushButton_yellow_pressed();
+
+   void on_pushButton_yellow_released();
+
 private:
     Ui::MainWindow *ui;
 };
